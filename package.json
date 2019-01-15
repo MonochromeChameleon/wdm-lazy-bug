@@ -1,0 +1,20 @@
+{
+  "name": "wdmtest",
+  "version": "1.0.0",
+  "description": "minimal test rig for webpack-dev-middleware lazy compilation bug",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "express": "^4.16.4",
+    "mini-css-extract-plugin": "^0.5.0",
+    "webpack": "^4.28.4",
+    "webpack-dev-middleware": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
